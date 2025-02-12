@@ -1,3 +1,6 @@
 historico_precos
 .env
 log_de_execução.log
+/build/
+/dist/
+*.spec

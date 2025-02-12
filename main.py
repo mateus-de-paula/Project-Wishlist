@@ -3,7 +3,8 @@ import logging
 import requests
 import pandas as pd
 from datetime import datetime
-from plyer import notification
+#from plyer import notification
+from win10toast import ToastNotifier
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -142,11 +143,11 @@ def main():
             save_price(price, game_name)
             if check_price_drop(game_name):
                 mensagem = f'⚠️ QUEDA DETECTADA! ⚠️\n{game_name}\nNovo preço: R${price}'
-                notification.notify(
-                    title='Alerta de Preço',
-                    message=mensagem,
-                    app_name='Monitor de Preços',
-                    timeout=15
+                toast = ToastNotifier()
+                toast.show_toast(
+                    "Alerta de Preço",
+                    mensagem,
+                    duration=15
                 )
 
     driver.quit()  # Fecha o WebDriver
