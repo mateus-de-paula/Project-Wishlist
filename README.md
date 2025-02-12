@@ -49,5 +49,7 @@ taskschd.msc
 2. Create a task:
 
 Triggers: Choose the frequency and time you want it to be run.
-Actions: (If you are using the python file)Start a Program and Browse to this file in the project folder: 'executar_script.bat'
+
+Actions: (If you are using the python file)Start a Program and Browse to this file `executar_script.bat`, in the project folder
+
 Actions: (If you are using the EXE file)Start a Program and Browse to the executable file.
