@@ -40,6 +40,16 @@ BASE_URL=https://eshop-prices.com/wishlist?currency=BRL&sort_by=discount&directi
 
 ## Scheduling the script to run automaticaly
 
+-If you want to use the python file for the task you need to create a file, where the `main.py` is, named `execute_script.bat` (on notepad for example) with the folloing lines:
+
+```
+@echo off
+cd /d "PATH_TO_main.py"
+python main.py
+```
+
+-If you want to use the `.exe` ignore the above
+
 1. Open the Task Manager, pressing 'Win+R' and typing:
 
 ```
@@ -50,6 +60,8 @@ taskschd.msc
 
 Triggers: Choose the frequency and time you want it to be run.
 
-Actions: (If you are using the python file)Start a Program and Browse to this file `executar_script.bat`, in the project folder
+Actions: (If you are using the python file) Start a Program and Browse to this file `executar_script.bat`, in the project folder.
 
-Actions: (If you are using the EXE file)Start a Program and Browse to the executable file.
+Actions: (If you are using the EXE file) Start a Program and Browse to the executable file. In the "Start in" field, enter the full path of the folder where the `.env` is located.
+
+
