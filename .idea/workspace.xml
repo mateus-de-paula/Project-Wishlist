@@ -5,31 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a2a749c-1b73-4025-b393-081df2f24892" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/ANIMAL WELL_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/CHRONO CROSS THE RADICAL DREAMERS EDITION_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/Cult of the Lamb_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/DAVE THE DIVER_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/Pepper Grinder_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/Prince of Persia The Lost Crown_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/Red Dead Redemption_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/SONIC X SHADOW GENERATIONS_price_history.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/historico_precos/Tales of Symphonia Remastered_price_history.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_price_drop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_game_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_price.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Project_Wishlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project_Wishlist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANIMAL WELL_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHRONO CROSS THE RADICAL DREAMERS EDITION_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cult of the Lamb_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mighty Morphin Power Rangers Rita's Rewind_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moonstone Island_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pepper Grinder_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prince of Persia The Lost Crown_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Red Dead Redemption_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RollerCoaster Tycoon Classic_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SONIC X SHADOW GENERATIONS_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STAR OCEAN THE SECOND STORY R_price_history.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tales of Symphonia Remastered_price_history.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/ANIMAL WELL_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/ANIMAL WELL_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/CHRONO CROSS THE RADICAL DREAMERS EDITION_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/CHRONO CROSS THE RADICAL DREAMERS EDITION_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/Cult of the Lamb_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/Cult of the Lamb_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/DAVE THE DIVER_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/DAVE THE DIVER_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/Pepper Grinder_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/Pepper Grinder_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/Prince of Persia The Lost Crown_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/Prince of Persia The Lost Crown_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/Red Dead Redemption_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/Red Dead Redemption_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/SONIC X SHADOW GENERATIONS_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/SONIC X SHADOW GENERATIONS_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/historico_precos/Tales of Symphonia Remastered_price_history.csv" beforeDir="false" afterPath="$PROJECT_DIR$/historico_precos/Tales of Symphonia Remastered_price_history.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/url_path.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +53,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Modular",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Wishlist" />
