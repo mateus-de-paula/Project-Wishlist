@@ -1,4 +1,6 @@
 historico_precos
+.idea
+__pycache__
 .env
 log_de_execução.log
 /build/
