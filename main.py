@@ -1,10 +1,10 @@
-from config import driver
+from src.config import driver
 from selenium.webdriver.common.by import By
 from plyer import notification
-from get_game_urls import get_game_urls
-from get_price import get_price
-from save_price import save_price
-from check_price_drop import check_price_drop
+from src.get_game_urls import get_game_urls
+from src.get_price import get_price
+from src.save_price import save_price
+from src. check_price_drop import check_price_drop
 import logging
 
 def main():
@@ -17,15 +17,16 @@ def main():
         game_name = driver.find_element(By.CSS_SELECTOR, '.mt8.lc3.lcm2').text.replace(":", "").replace("®", "")
         logging.info(f"Verificando {game_name}...")
 
-        price = get_price(game_url)
+        price, country = get_price(game_url)
 
         if price:
-            save_price(price, game_name)
+            logging.info(f"Preço de {game_name}: {price} ({country})")
+            save_price(price, game_name, country)
             if check_price_drop(game_name):
-                mensagem = f'⚠️ QUEDA DETECTADA! ⚠️\n{game_name}\nNovo preço: R${price}'
+                msg = f'⚠️ QUEDA DETECTADA! ⚠️\n{game_name}\nNovo preço: R${price} ({country})'
                 notification.notify(
                     title='Alerta de Preço',
-                    message=mensagem,
+                    message=msg,
                     app_name='Monitor de Preços',
                     timeout=15
                 )
