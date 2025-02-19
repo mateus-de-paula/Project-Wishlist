@@ -1,20 +1,32 @@
 from src.config import driver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from plyer import notification
 from src.get_game_urls import get_game_urls
 from src.get_price import get_price
 from src.save_price import save_price
 from src. check_price_drop import check_price_drop
 import logging
+import time
+import random
 
 def main():
     game_urls = get_game_urls()
 
     for game_url in game_urls:
-        if game_url is None:
-            continue
+        # Intervalo aleatório entre 3 a 7 segundos
+        time.sleep(random.uniform(3, 7))
         driver.get(game_url)
-        game_name = driver.find_element(By.CSS_SELECTOR, '.mt8.lc3.lcm2').text.replace(":", "").replace("®", "")
+        try:
+            elemento = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, '.mt8.lc3.lcm2'))
+            )
+            game_name = elemento.text.replace(":", "").replace("®", "").replace("™","")
+        except:
+            print("Elemento não encontrado.")
+
         logging.info(f"Verificando {game_name}...")
 
         price, country = get_price(game_url)
