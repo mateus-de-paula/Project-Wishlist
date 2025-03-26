@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a2a749c-1b73-4025-b393-081df2f24892" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/check_price_drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/check_price_drop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/get_game_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_game_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/get_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/get_price.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/save_price.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/save_price.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

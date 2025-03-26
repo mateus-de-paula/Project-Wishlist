@@ -1,0 +1,6 @@
+# Required dependencies
+requests
+beautifulsoup4
+selenium
+pandas
+python-dotenv
