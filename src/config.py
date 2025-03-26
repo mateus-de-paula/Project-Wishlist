@@ -1,3 +1,8 @@
+"""
+This is the configuration class.It defines the BASE URL, the Chrome Profile and the history folder. Also sets some
+web driver configuration.
+"""
+
 import os
 import logging
 from dotenv import load_dotenv

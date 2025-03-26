@@ -4,7 +4,7 @@ import logging
 from src.config import PASTA_HISTORICO
 
 def check_price_drop(game_name):
-    """ Verifica se houve queda de preço. """
+    """ Verifies if there's a price drop. """
     try:
         history_file = os.path.join(PASTA_HISTORICO, f'{game_name}_price_history.csv')
 

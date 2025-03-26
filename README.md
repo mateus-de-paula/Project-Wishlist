@@ -28,10 +28,11 @@ You will also need to configure the path of this Chrome profile using a file cal
 
 1. Open the `.env` file in your project directory.
 
-2. Edit the line to match your Chrome profile path. We are also adding the eshop-prices URL(this needs to be the URL for the wishlist filtered with dicounts). Should it change with time, edit it in this file:
+2. Edit the line to match your Chrome profile path. We are also adding the eshop-prices URL(this needs to be the URL for the wishlist filtered with dicounts). Should it change with time, edit it in this file. Lastly, you should create a list of countries you would like to monitor. Edit it to your liking:
 ```env
 CHROME_PROFILE_PATH=C:/Users/YOUR_USER/AppData/Local/Google/Chrome/User Data/Profile Selenium
 BASE_URL=https://eshop-prices.com/wishlist?currency=BRL&sort_by=discount&direction=desc
+COUNTRY_LIST=Brazil,Peru,Chile,Mexico,Colombia,United States,Canada
 ```
 
 3. Save the file and run the program.

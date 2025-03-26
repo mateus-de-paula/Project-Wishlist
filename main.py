@@ -12,6 +12,11 @@ import time
 import random
 
 def main():
+    '''
+    This is the main file. It calls the other functions, gets the games' names and also sends alerts in case there's a
+    price drop.
+    :return:
+    '''
     game_urls = get_game_urls()
 
     for game_url in game_urls:

@@ -6,7 +6,7 @@ import logging
 
 
 def get_game_urls():
-    """ Captura as URLs dos jogos em todas as páginas disponíveis. """
+    """ Gets the URLS from all the games in all available pages. """
     game_urls = []
     page_number = 1  # Começa na página 1
 

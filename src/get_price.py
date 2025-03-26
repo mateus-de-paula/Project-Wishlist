@@ -4,7 +4,7 @@ import logging
 from src.config import HEADERS
 
 def get_price(game_url):
-    """ Captura o preço de um jogo a partir da sua página. """
+    """ Gets the price of a game from its url. """
     try:
         response = requests.get(game_url, headers=HEADERS)
         response.raise_for_status()
